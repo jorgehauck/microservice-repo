@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    url: jdbc:mysql://localhost:3306/loja?useTimezone=true&serverTimezone=America/Sao_Paulo
+    password: admin471
+  jpa:
+    hibernate:
+      ddl-auto: update
